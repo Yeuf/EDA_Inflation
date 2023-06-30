@@ -15,12 +15,12 @@ You will also need to obtain an API key from FRED and store it in a `config.py` 
 
 ## Description
 
-The script retrieves data on US inflation rates, the US federal fund rate, and EU inflation rates by country. It then generates several visualizations of the data using matplotlib and plotly.
+This project involves retrieving data on US inflation rates, the US federal fund rate, and EU inflation rates by country. The script utilizes matplotlib and plotly libraries to generate various visualizations based on the acquired data.
 
 The visualizations include:
-- A line plot of US inflation rates over time
-- A line plot of the US federal fund rate over time
-- A line plot comparing US inflation rates and the federal fund rate
-- A bar chart showing inflation rates by EU country for 2022
-- Line plots of EU inflation rates and the ECB deposit rate over time
-- A subplot grid showing inflation rates and the ECB deposit rate for each EU country over time.
+- A line plot showcasing the trend of US inflation rates over time.
+- A line plot illustrating the changes in the US federal fund rate over time.
+- A line plot comparing US inflation rates and the federal fund rate, highlighting any potential correlations.
+- A bar chart presenting the inflation rates by country for the year 2022 within the European Union (EU).
+- Line plots demonstrating the variation of EU inflation rates alongside the European Central Bank (ECB) deposit rate over time.
+- A subplot grid displaying the inflation rates and ECB deposit rate for each EU country, allowing for easy comparison over time.
